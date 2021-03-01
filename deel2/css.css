@@ -1,0 +1,16 @@
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+
+}
+
+div:hover {
+  width: 800px;
+  transition-duration: 500ms;
+  transition-property: width 500px;
+  transition-timing-function: ease-in;
+  transition-delay: 400ms;
+}
